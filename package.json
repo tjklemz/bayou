@@ -1,0 +1,17 @@
+{
+  "name": "bayou",
+  "version": "1.0.0",
+  "description": "search engine",
+  "main": "index.js",
+  "author": "Thomas Klemz <tjklemz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --experimental-fetch index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10"
+  },
+  "engines": {
+    "node": ">=17.8.0"
+  }
+}
