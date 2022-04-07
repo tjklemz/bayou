@@ -32,6 +32,9 @@ const notRelevant = href => {
     'snapchat.com',
     'weibo.com',
     'flickr.com',
+    'podcasts.apple.com',
+    'spotify.com',
+    'open.spotify.com',
   ].some(l => href.replace(/^www\./, '').startsWith(l))
 }
 
